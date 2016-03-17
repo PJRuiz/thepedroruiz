@@ -9,6 +9,14 @@
     clip-path: circle(100px at center);
 }
 
+.portfolio_links {
+    text-align: center;
+}
+
+i {
+    text-align: center;
+}
+
 /*.external_links {
     padding: 0 auto;
 }*/
