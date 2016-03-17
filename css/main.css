@@ -1,0 +1,40 @@
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+.owlocator h1 {
+    color: white;
+}
+
+.profile {
+    clip-path: circle(100px at center);
+}
+
+/*.external_links {
+    padding: 0 auto;
+}*/
+
+/**{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 100%;
+    background:#f8f8f8;
+}
+
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:#999;
+}
+
+p{
+    line-height: 2em;
+    margin:0 0 20px;
+    text-align: center;
+}*/
+

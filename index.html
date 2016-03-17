@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!--
+  
+  Alright, you can look at this code - but only if you solve this maze within 20 seconds. 
+  Fair is fair. Answers on a postcard, please.            
+  
+  Start.
+  
++--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+   |                 |                             |  |     |
++  +  +--+--+--+--+  +  +--+--+--+--+--+--+--+  +  +  +  +  +
+|  |     |           |  |           |        |  |     |  |  |
++  +--+  +  +  +--+--+  +  +--+--+  +  +--+--+  +--+  +  +  +
+|        |  |  |     |     |           |     |  |     |  |  |
++--+--+--+  +  +  +  +--+--+--+--+  +--+  +  +  +  +--+  +  +
+|        |  |     |                    |  |  |  |  |     |  |
++  +--+  +  +--+  +--+--+--+--+--+--+  +  +--+  +  +--+--+  +
+|     |  |  |     |           |     |  |        |     |     |
++--+  +  +  +--+--+--+  +  +--+  +  +--+--+--+--+--+  +  +--+
+|  |  |        |     |  |  |     |           |  |     |     |
++  +  +--+--+  +  +  +  +  +  +--+--+--+--+  +  +  +--+--+  +
+|     |     |     |     |     |           |  |  |           |
++--+--+  +  +--+--+--+--+--+--+--+--+--+  +  +  +  +--+  +--+
+|        |  |                                |  |     |     |
++  +--+--+  +  +--+--+  +--+--+--+--+--+  +  +  +--+  +--+  +
+|  |     |  |  |     |        |        |  |     |  |  |  |  |
++  +--+  +  +  +  +--+  +--+  +  +--+  +  +--+--+  +  +  +  +
+|        |     |        |     |     |     |           |      
++--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+  
+  End.
+  
+  -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Pedro Ruíz">   
+
+    <title>Pedro Ruíz - Human Oriented Creator</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate_text.css" rel="stylesheet">
+    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/initialize_piling.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<!--     <button id="arrow">
+      <span>↓</span>
+    </button> -->
+    <div id="pagepiling">
+
+        <div class="section" id="section1">
+            
+            <div id="typed-strings">
+              <p>iOS Developer</p>
+              <p>Web Developer</p>
+              <p>UX Designer</p>
+            </div>
+
+            <div class="intro">
+                <div class="container">
+                  <img class="" src="images/profile_picture_high.jpg">  
+                </div>
+                <h1>I'm Pedro Ruíz</h1>
+                <h2><span id="typed" style="white-space:pre;"></h2>                  
+             </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="intro owlocator">
+                <img src="images/owl-logo1.png">
+                <h1 >Owlocator</h1> 
+                <p>Conquer the World</p>
+            </div>
+        </div>
+        <div class="section" id="section3">
+             <div class="intro">
+                 <h1>Header.</h1>
+                <p>Subtitle</p>
+
+
+
+
+             </div>
+        </div>
+        <div class="section pp-scrollable" id="section4">
+            <div class="content">
+              <div id="typed-languages">
+                <p>Swift</p>
+                <p>Objective-C</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+
+              <div class="type-wrap"> 
+                <p>
+                  I can program in <strong><span id="languages" style="white-space:pre;"></span></strong>
+                </p>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Typed.js -->
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/animate_text.js" type="text/JavaScript"></script>
+
+    <!-- PagePiling -->
+    <script src="js/jquery.pagepiling.min.js" type="text/javascript"></script>
+
+    <script src="js/initialize_piling.js" type="text/javascript"></script>
+
+  </body>
+</html>
