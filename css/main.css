@@ -1,8 +1,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 
-.owlocator h1 {
+.owlocator h1, h2, p {
     color: white;
+}
+
+.owlocator h1 {
+    font-size: 3em;
+}
+
+.owlocator h2 {
+    font-size: 2em;
+}
+
+.owlocator .title {
+    font-weight: 700;
 }
 
 .profile {
@@ -13,9 +25,100 @@
     text-align: center;
 }
 
-i {
-    text-align: center;
+
+.owlocator i {
+    color: white;
 }
+
+
+#logo {
+    text-indent: -9999px;
+    height: 48px;
+    width: 100%;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    padding-bottom: 10px;
+}
+
+#logo a {
+    display: block;
+    width: 190px;
+    height: 48px;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    background-image: url("../images/swift.svg");
+    background-repeat: no-repeat;
+    background-size: 190px 48px
+}
+
+
+#app-store {
+    display: block;
+    border-radius: 0%;
+    margin: 0 auto;
+}
+
+.colored {
+    background-color: black;
+}
+
+@media only screen and (min-width : 400px) {
+    #app-store {
+        width: 50%; 
+        height: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .owlocator h1, h2, p {
+        margin-top: 0;
+    }
+
+    #logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    #app-store {
+        width: 40%; 
+        height: 40%;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #app-store {
+        width: 50%; 
+        height: 50%;
+    } 
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #app-store {
+        width: 40%; 
+        height: 40%;
+    }   
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #app-store {
+        width: 40%; 
+        height: 40%;
+    }   
+
+}
+
+
 
 /*.external_links {
     padding: 0 auto;
