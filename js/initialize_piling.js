@@ -4,7 +4,7 @@
 $('#pagepiling').pagepiling({
     verticalCentered: false,
     css3: false,
-    sectionsColor: ['white', '#fc0', 'gray', '#2586c8', 'white'],
+    sectionsColor: ['white', '#fc0', '#2586c8', '#2586c8', 'white'],
     onLeave: function (index, nextIndex, direction) {
 
         //fading out the txt of the leaving section
