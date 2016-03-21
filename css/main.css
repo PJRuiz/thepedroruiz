@@ -1,6 +1,30 @@
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 
+/* Preloader */
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#00AEF3; /* change if the mask should have another color then white */
+  z-index:99999; /* makes sure it stays on top */
+}
+
+#status {
+  width:800px;
+  height:600px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url(../images/status4.gif); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:-400px 0 0 -400px; /* is width and height divided by two */
+}
+
+
 .owlocator h1, h2, p {
     color: white;
 }
@@ -24,6 +48,10 @@
 .owlocator i {
     color: white;
 }
+
+/*.owlist h1, h2, p, i, a{
+    color: black;
+}*/
 
 .dark {
     color: black;
@@ -111,7 +139,11 @@
     border-radius: 10%;
 }
 
-@media only screen and (min-width : 400px) {
+.owlist {
+    border-radius: 10%;
+}
+
+@media only screen and (min-width : 375px) {
     .main-image {
         max-width: 60%;
     }
@@ -138,9 +170,17 @@
 
 }
 
+/* iPhone 6 media queries */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+
+ }
+
+
 @media (min-height: 800px) {
     *{
-        padding-top: 0;
+        margin-bottom: 0;
     }
 
 }
