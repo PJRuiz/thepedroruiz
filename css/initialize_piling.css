@@ -83,7 +83,6 @@ body {
 .main-image {
 	margin: 0 auto;
 	border-radius: 50%;
-	clip-path: circle(100px at center);
 }
 
  @media only screen and (min-width : 320px) {

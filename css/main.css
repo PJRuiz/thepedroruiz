@@ -17,17 +17,16 @@
     font-weight: 700;
 }
 
-.profile {
-    clip-path: circle(100px at center);
-}
-
 .portfolio_links {
     text-align: center;
 }
 
-
 .owlocator i {
     color: white;
+}
+
+.dark {
+    color: black;
 }
 
 
@@ -51,6 +50,47 @@
     background-size: 190px 48px
 }
 
+#objective-c {
+    text-indent: -9999px;
+    height: 48px;
+    width: 100%;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    padding-bottom: 10px;
+}
+
+#objective-c a {
+    display: block;
+    width: 190px;
+    height: 48px;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    background-image: url("../images/objective-c.svg");
+    background-repeat: no-repeat;
+    background-size: 190px 48px;
+    border-radius: 20%;
+}
+
+#sprite-kit {
+    text-indent: -9999px;
+    height: 100px;
+    width: 100%;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    padding-bottom: 10px;
+}
+
+#sprite-kit a {
+    display: block;
+    width: 190px;
+    height: 48px;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    background-image: url("../images/sprite-kit.svg");
+    background-repeat: no-repeat;
+    background-size: 190px 48px;
+    border-radius: 20%;
+}
 
 #app-store {
     display: block;
@@ -62,7 +102,23 @@
     background-color: black;
 }
 
+.objective-c-icon {
+    max-width: 20%;
+    max-height: 10%;
+}
+
+.cyber-punch {
+    border-radius: 10%;
+}
+
 @media only screen and (min-width : 400px) {
+    .main-image {
+        max-width: 60%;
+    }
+    .owlocator {
+        vertical-align: center;
+    }
+
     #app-store {
         width: 50%; 
         height: 50%;
@@ -79,6 +135,13 @@
         margin-bottom: 10px;
     }
 
+
+}
+
+@media (min-height: 800px) {
+    *{
+        padding-top: 0;
+    }
 
 }
 
