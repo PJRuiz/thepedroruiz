@@ -143,6 +143,11 @@
     border-radius: 10%;
 }
 
+.main-image {
+/*    text-align: center;
+*/    margin: 0 auto;
+}
+
 @media only screen and (min-width : 375px) {
     .main-image {
         max-width: 60%;
