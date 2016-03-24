@@ -9,6 +9,18 @@
     text-align: center;
 }
 
+.no-padding-left {
+    padding-left: 0px;
+}
+
+.no-padding-right {
+    padding-right: 0px;
+}
+
+.about .extra-padding-top {
+    padding-top: 15px;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -132,6 +144,8 @@
     display: block;
     border-radius: 0%;
     margin: 0 auto;
+    max-width: 40%; 
+
 }
 
 .colored {
@@ -156,10 +170,17 @@
 */    margin: 0 auto;
 }
 
-.no-padding {
-    padding-left: 10;
-    padding-right: 10;
+.red-bg {
+    background-color: ;
 }
+
+
+
+#about-me {
+    border-radius: 10%;
+}
+
+
 
 @media only screen and (min-width : 375px) {
     .main-image {
@@ -170,8 +191,7 @@
     }
 
     #app-store {
-        width: 50%; 
-        height: 50%;
+        max-width: 50%; 
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -206,8 +226,7 @@ and (max-device-width : 667px) {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
     #app-store {
-        width: 40%; 
-        height: 40%;
+        max-width: 40%; 
     }
 
 }
@@ -215,8 +234,7 @@ and (max-device-width : 667px) {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     #app-store {
-        width: 50%; 
-        height: 50%;
+        max-width: 30%; 
     } 
 
 }
@@ -224,8 +242,7 @@ and (max-device-width : 667px) {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #app-store {
-        width: 40%; 
-        height: 40%;
+        max-width: 40%; 
     }   
 
 }
@@ -233,8 +250,7 @@ and (max-device-width : 667px) {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     #app-store {
-        width: 40%; 
-        height: 40%;
+        max-width: 40%; 
     }   
 
 }
